@@ -1,0 +1,22 @@
+{
+  "name": "external-courses-cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebPurple/external-courses-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebPurple/external-courses-cli/issues"
+  },
+  "homepage": "https://github.com/WebPurple/external-courses-cli#readme",
+  "dependencies": {
+    "webpurple-external-courses": "git+https://git@github.com/WebPurple/external-courses.git"
+  }
+}
