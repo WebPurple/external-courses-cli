@@ -1,5 +1,5 @@
 ---
-file_number=1
+file_number:1
 ---
 
 # cli
