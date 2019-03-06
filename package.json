@@ -4,7 +4,9 @@
   "description": "cli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd node_modules/webpurple-external-courses && npm test",
+    "ex_1": "node index.js --folder ex_1 --readMePath ex1_js-basics-part1",
+    "ex_4": "node index.js --folder ex_4 --readMePath ex4_js-objects-part2"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,12 @@
   },
   "homepage": "https://github.com/WebPurple/external-courses-cli#readme",
   "dependencies": {
-    "webpurple-external-courses": "git+https://git@github.com/WebPurple/external-courses.git"
+    "colors": "^1.3.3",
+    "inquirer": "^6.2.2",
+    "minimist": "^1.2.0",
+    "webpurple-external-courses": "git+https://git@github.com/WebPurple/external-courses.git#feature/refactorTasks"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
   }
 }
