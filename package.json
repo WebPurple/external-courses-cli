@@ -1,10 +1,10 @@
 {
-  "name": "external-courses-cli",
+  "name": "webpurple-external-courses-cli",
   "version": "1.0.0",
-  "description": "cli",
+  "description": "WebPurple JavaScript course cli",
   "main": "index.js",
   "scripts": {
-    "test": "cd node_modules/webpurple-external-courses && npm test",
+    "test": "",
     "ex_1": "node index.js --folder ex_1 --readMePath ex1_js-basics-part1",
     "ex_4": "node index.js --folder ex_4 --readMePath ex4_js-objects-part2"
   },
